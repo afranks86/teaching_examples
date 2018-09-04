@@ -32,4 +32,6 @@ ggplot(BlueJays, aes(BillLength, Head, color = KnownSex)) +
   exit_fade()
 ```
 
-![](man/figures/README-diamonds-mean-anim-1.gif)<!-- -->
+![](man/figures/README-bootstrap_animate-1.gif)<!-- -->
+
+![](figures/bootstrap_example.gif)<!-- -->

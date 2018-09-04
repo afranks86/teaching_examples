@@ -23,7 +23,7 @@ devtools::install_github("clauswilke/ungeviz")
 
 This is a very simple adaptation of the example developed by [Claus O. Wilke](https://github.com/clauswilke/ungeviz).  
 
-```{r diamonds-mean-anim, message = FALSE, warning = FALSE}
+```{r bootstrap_animate, message = FALSE, warning = FALSE, cache=TRUE}
 library(tidyverse)
 library(ungeviz)
 library(gganimate)
@@ -43,4 +43,6 @@ ggplot(BlueJays, aes(BillLength, Head, color = KnownSex)) +
   exit_fade()
 
 ```
+
+![](figures/bootstrap_example.gif)<!-- -->
 
